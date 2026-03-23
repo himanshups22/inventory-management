@@ -311,6 +311,43 @@ export default {
     selectLanguage: '言語を選択'
   },
 
+  // Restocking
+  restocking: {
+    title: '補充',
+    description: '予算を設定し、需要予測に基づくAI補充提案を取得',
+    budget: '利用可能予算',
+    recommendations: '推奨品目',
+    noRecommendations: '現在の予算内に収まる品目がありません。予算を増やしてください。',
+    totalCost: '合計コスト',
+    remaining: '残予算',
+    placeOrder: '注文する',
+    orderSuccess: '補充注文が正常に送信されました！',
+    orderError: '補充注文の送信に失敗しました',
+    selected: '選択済み',
+    selectAll: 'すべて選択',
+    deselectAll: 'すべて解除',
+    table: {
+      item: '品目',
+      sku: 'SKU',
+      trend: 'トレンド',
+      currentDemand: '現在',
+      forecastedDemand: '予測',
+      quantity: '注文数量',
+      unitCost: '単価',
+      totalCost: '合計コスト',
+      leadTime: 'リードタイム',
+      priority: '優先度'
+    },
+    submittedOrders: '送信済み注文',
+    noSubmittedOrders: 'まだ補充注文は送信されていません。',
+    orderNumber: '注文番号',
+    orderDate: '注文日',
+    expectedDelivery: '予定配達日',
+    totalValue: '合計金額',
+    itemsCount: '{count}件',
+    days: '{count}日'
+  },
+
   // Common
   common: {
     loading: '読み込み中...',

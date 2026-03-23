@@ -311,6 +311,43 @@ export default {
     selectLanguage: 'Select Language'
   },
 
+  // Restocking
+  restocking: {
+    title: 'Restocking',
+    description: 'Set your budget and get AI-powered restocking recommendations based on demand forecasts',
+    budget: 'Available Budget',
+    recommendations: 'Recommendations',
+    noRecommendations: 'No items fit within the current budget. Try increasing your budget.',
+    totalCost: 'Total Cost',
+    remaining: 'Remaining Budget',
+    placeOrder: 'Place Order',
+    orderSuccess: 'Restocking order submitted successfully!',
+    orderError: 'Failed to submit restocking order',
+    selected: 'selected',
+    selectAll: 'Select All',
+    deselectAll: 'Deselect All',
+    table: {
+      item: 'Item',
+      sku: 'SKU',
+      trend: 'Trend',
+      currentDemand: 'Current',
+      forecastedDemand: 'Forecast',
+      quantity: 'Qty to Order',
+      unitCost: 'Unit Cost',
+      totalCost: 'Total Cost',
+      leadTime: 'Lead Time',
+      priority: 'Priority'
+    },
+    submittedOrders: 'Submitted Orders',
+    noSubmittedOrders: 'No restocking orders submitted yet.',
+    orderNumber: 'Order #',
+    orderDate: 'Order Date',
+    expectedDelivery: 'Expected Delivery',
+    totalValue: 'Total Value',
+    itemsCount: '{count} items',
+    days: '{count} days'
+  },
+
   // Common
   common: {
     loading: 'Loading...',
